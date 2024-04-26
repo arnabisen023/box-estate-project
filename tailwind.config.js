@@ -4,14 +4,19 @@ export default {
   theme: {
     extend: {
       fontsize:{
-        as:"0.75rem",
-        jk:"0.875rem",
-        cs:"1rem",
-        bb:"1.25rem",
-        ss:"1.5rem",
-        bn:"1.75rem",
-        sd:"2.25rem",
-      }
+        sm:"0.75rem",
+        base:"0.875rem",
+        md:"1rem",
+        lg:"1.25rem",
+        "xl":"1.5rem",
+        "2xl":"1.75rem",
+        "3xl":"2.25rem",
+      },
+
+      backgroundImage: {
+        'team-bg-image': "url('/public/teams/team.1')",
+        'team-avatar':"url('/public/teams/team.2')"
+      },
     },
   },
   plugins: [],
